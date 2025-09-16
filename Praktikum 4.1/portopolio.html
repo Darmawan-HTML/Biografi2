@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav-container" id="nav">
+    <div class="menu left"><a href="tentang.html">Tentang Saya</a></div>
+    
+    <div class="profile" id="profile">
+      <img src="gambar1.png" alt="Foto Profil">
+    </div>
+    
+    <div class="menu right"><a href="gallery.html">Gallery</a></div>
+  </div>
+
+  <script>
+    const profile = document.getElementById('profile');
+    const nav = document.getElementById('nav');
+
+    profile.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
