@@ -246,6 +246,7 @@ body {
 
 
 ```
+## Tambahan java scriptnya dibagian footer untuk memunculkan jam secara realtime
 ```html
 <footer> <!-- Bagian footer -->
   <p>© 2025 Dibuat oleh Darmawan</p> <!-- Teks hak cipta -->
